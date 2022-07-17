@@ -1,3 +1,1 @@
-# Provando_rust
-No mas probando algo de Rust para ver que tal 
-:D esto es interesante
+#esto es para provar distintos alguanas cosas XD
