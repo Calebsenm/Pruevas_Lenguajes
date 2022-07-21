@@ -15,7 +15,8 @@ nu = IO.gets("Input a number -> ")|> String.trim_trailing
 nu = String.to_integer(nu)
 
 tx = IO.gets("Input Input a tex -> ")
-Recursion.fact(nu,tx)
+txt = String.trim(tx)
+Recursion.fact(nu,txt)
 
 
 
