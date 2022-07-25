@@ -1,0 +1,15 @@
+Operaciones Arimeticos 
+
+interpreta los valores para evaluarlos 
+o sinplifica
+//   + - * / 
+
+5 + 4
+**
+9
+**
+
+/// si colocas    2 + 1 * 2  va a dar como resyultado 4
+tambien puedes utilizar los parentesis dan prioridad
+
+
