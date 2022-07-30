@@ -1,1 +1,1 @@
-#esto es para provar distintos alguanas cosas XD
+#Aprender algun lenguaje interesante o hacer una pequeña prueba
