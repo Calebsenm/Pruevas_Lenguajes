@@ -682,8 +682,9 @@ function move(event){
 }
 
 -------------------------------------------------------------------------------------------------------
+cambas:
+    you can use the cambas  and js for make "figuras",
 
-
-
+    
 
 
