@@ -1,17 +1,19 @@
 
-
 const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
 const resultText = document.querySelector("#resultText");
-const choiceBtns = document.querySelectorAll(".choiseBtn");
+const choiceBtns = document.querySelectorAll(".choiceBtn");
 
 
 
 let player;
 let computer;
-let result; 
+let result;
+
+
 
 choiceBtns.forEach( button => button.addEventListener("click", () => {
+
 
     player = button.textContent;
     computerTurn();
@@ -48,9 +50,11 @@ function  checkWinner(){
     if(player == computer){
         return "Draw!";
     }   else if(computer == "Rock"){
-            return (player == "Paper") ? "you Win!" : "you Lose"
+            return (player == "Paper") ? "you Win!" : "you Lose";
+
     }    else if(computer == "Paper"){
-            return (player == "Scissors") ? "you Win!" : "you Lose"
+        
+            return (player == "Scissors") ? "you Win!" : "you Lose";
     }
 
 }
