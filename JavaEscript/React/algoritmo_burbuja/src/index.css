@@ -14,7 +14,9 @@ margin:0;
 /*Test the tittle*/
 .title{
     color:#18ac96;
+
 }
+
 
 
 /*Header*/
@@ -44,7 +46,9 @@ header{
     font-size:15px;  
     margin: 5px;
     padding:10px;
-    
+   
+    color:black;
+
 }
 
 body{
@@ -69,26 +73,23 @@ body{
     font-weight:  600;
     font-family: "monospace";
     text-align:  center;
-        
     vertical-align: middle; 
+
+        color:#18ac96;
 }
 
 .Box{
     bottom:0px;
-    background-color:green;   
     position:absolute; 
     display: inline-block;
     height:   100px;
     width:100%;
     left:0px;
-
-
-     align-items: center;
-  display: flex;
-  justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .Box1{
-    background-color: yellow;
     width:80%;
     align-items: center;
     display: flex;
@@ -97,12 +98,17 @@ body{
 }
 
 
-.BoxFather{
-    background-color:   red ; 
-    height:             530px;
+.BoxFather{    
 }
 
 
+.boxSquare{
+
+    margin-top:       20px;
+    align-items:     center;
+    display:         flex;
+    justify-content: center;
+}
 
 
 

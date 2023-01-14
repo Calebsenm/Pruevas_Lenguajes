@@ -26,10 +26,18 @@ function Box(){
 function Squares(){
      
     return(
-        <div > 
+        <div  className = "boxSquare"> 
                 <Square1 value = {4}/>
                 <Square1 value = {5}/>
-                <Square1 value = {3}/>     
+                <Square1 value = {3}/>    
+                <Square1 value = {9}/>      
+                <Square1 value = {6}/>
+                <Square1 value = {7}/>
+                <Square1 value = {12}/>
+                <Square1 value = {14}/>
+                <Square1 value = {18}/>
+                <Square1 value = {17}/>
+                <Square1 value = {1}/>
         </div>
     );
 
@@ -41,6 +49,8 @@ export default function MyApp(){
             <Header/>
             <div className = "BoxFather"> 
                 <Squares />
+                 <Squares />
+
                 <Box/>
             </div>
         </div>
