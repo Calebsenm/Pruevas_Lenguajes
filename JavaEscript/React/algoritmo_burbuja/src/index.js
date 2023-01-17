@@ -3,62 +3,69 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Button1 from "./components/Buttons/butom1"; 
+
+
+import Button3 from './components/Buttons/buttin3';
+import Button2 from './components/Buttons/button2';
+import Button1 from './components/Buttons/button1';
+
 import Square1 from "./components/Suquare1"
 import Header from "./components/Header"
 
+import Option from './components/Option';
 
-function Box(){
-    return(
-        
+let List = [3, 10, 5, 4, 6, 1, 2, 7, 9, 8]
+
+
+function Box() {
+    return (
         <div className="Box">
-            <div className = "Box1">
-                <Button1 value = {" No Me des  Click :D "}/> 
-                <Button1 value = {" Dame Click :D "}/>
-                <Button1 value = {" Solo da Click :D"}/> 
+            <div className="Box1">
+                <Button1 value={" Ingresar Numeros "} />
+                <Button2 value={" Ordenar List "} />
+                <Button3 value={" Desordenar  Lista "} />
             </div>
+        </div>
+    );
+}
+
+
+function Squares() {
+    return (
+        <div className="boxSquare">
+            <Square1 value={List[0]} />
+            <Square1 value={List[1]} />
+            <Square1 value={List[2]} />
+            <Square1 value={List[3]} />
+            <Square1 value={List[4]} />
+            <Square1 value={List[5]} />
+            <Square1 value={List[6]} />
+            <Square1 value={List[7]} />
+            <Square1 value={List[8]} />
+            <Square1 value={List[0]} />
         </div>
     );
 
 }
 
 
-function Squares(){
-     
-    return(
-        <div  className = "boxSquare"> 
-                <Square1 value = {4}/>
-                <Square1 value = {5}/>
-                <Square1 value = {3}/>    
-                <Square1 value = {9}/>      
-                <Square1 value = {6}/>
-                <Square1 value = {7}/>
-                <Square1 value = {12}/>
-                <Square1 value = {14}/>
-                <Square1 value = {18}/>
-                <Square1 value = {17}/>
-                <Square1 value = {1}/>
-        </div>
-    );
-
-}
-
-export default function MyApp(){
-    return(
-        <div>
-            <Header/>
-            <div className = "BoxFather"> 
-                <Squares />
-                 <Squares />
-
-                <Box/>
+export default function MyApp() {
+    return (
+        <>
+            <Option />
+            <div>
+                <Header />
+                <div className="BoxFather">
+                    <Squares />
+                    <Box />
+                </div>
             </div>
-        </div>
-           
+        </>
+
+
     )
 }
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(MyApp());
-
-
