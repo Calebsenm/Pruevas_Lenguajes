@@ -1,5 +1,5 @@
 
-function Option() {
+function Option( ) {
     return (
         <div className="OptionWindowFather">
             <div className="OptionWindow">
@@ -9,10 +9,9 @@ function Option() {
                         <input type="text" className="Inp" />
                     </form>
 
-                    <button className="botonC">
-                        Aceptar
-                    </button>
-                </div>e
+                    <button className="botonC" >Aceptar</button>
+
+                </div>
             </div>
 
         </div>

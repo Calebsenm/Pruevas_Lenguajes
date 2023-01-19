@@ -1,5 +1,4 @@
 
-
 // Optimized implementation of bubble sort Algorithm
  
 function bubbleSort(arr){
