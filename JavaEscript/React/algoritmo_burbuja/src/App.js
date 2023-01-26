@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import { useState } from 'react';
 import Modal from "./components/Modal";
 
-let List = [3,6, 1];
+let List = [3 , 6 , 1 , 2 , 4];
 
 
 function Squares() {
@@ -27,7 +27,14 @@ function Squares() {
 
 
 function App() {
-    const [isOPen, setIsOpen] = useState(false);
+    
+  const [isOPen, setIsOpen] = useState(false);
+  const [list , setList] = useState([]);
+
+  const handleList = newList => {
+    setList(newList);
+  }
+
     return (
         <>
             <div>
@@ -38,7 +45,11 @@ function App() {
                         <div className="Box1">
 
                             <button className="Button_1" onClick={ () => setIsOpen(true)}>Ingresar Numeros </button>
-                            {isOPen && <Modal setIsOpen = {setIsOpen} />}
+                            {isOPen && <Modal 
+                                          setIsOpen = {setIsOpen} 
+                                          handleList = {handleList }
+                                        />}
+
 
                             <button className="Button_1"
 
@@ -49,7 +60,7 @@ function App() {
 
                             > Desordenar
 
-                            </button>
+                            </button> 
                         </div>
                     </div>
                 </div>
@@ -60,3 +71,6 @@ function App() {
 }
 
 export default App;
+
+
+
