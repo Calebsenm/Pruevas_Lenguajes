@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -12,13 +13,11 @@ let List = [3 , 6 , 1 , 2 , 4];
 
 function Squares() {
     return (
-        <div className="boxSquare">
-            
+        <div className="boxSquare">            
             {List.map((item, index) => {
                 return (
                     <Square1 value={List[index]} />
                 )
-
             })}
         </div>
     );
@@ -35,21 +34,27 @@ function App() {
     setList(newList);
   }
 
-    return (
-        <>
-            <div>
-                <Header />
+  
+  return (
+    <>
+      <div>
+        <Header />
                 <div className="BoxFather">
                     <Squares />
                     <div className="Box">
                         <div className="Box1">
 
-                            <button className="Button_1" onClick={ () => setIsOpen(true)}>Ingresar Numeros </button>
+                            <button
+                              className="Button_1" 
+                              onClick={ () => setIsOpen(true)}
+                              >Ingresar Numeros 
+                          
+                            </button>
+
                             {isOPen && <Modal 
                                           setIsOpen = {setIsOpen} 
                                           handleList = {handleList }
                                         />}
-
 
                             <button className="Button_1"
 
@@ -66,8 +71,8 @@ function App() {
                 </div>
             </div>
 
-        </>
-    )
+    </>
+  )
 }
 
 export default App;

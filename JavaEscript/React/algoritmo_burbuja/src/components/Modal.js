@@ -1,13 +1,19 @@
 
 import {useState} from "react";
-
+  
 // this is a function modal for the modal conponent
 function Modal( {setIsOpen , handleList}) {
-
+  
   const [inputValue , setInputValue ] = useState(''); 
+  
   const handleSubmit = () => {
-    handleList(inputValue.split(",").map(Number));
-    setIsOpen(false)
+    handleList(inputValue);
+
+      //for (let i = 0; inputValue.length;i ++) {
+        //window.alert(inputValue[i]);
+      //}
+      window.alert(inputValue.length)
+      setIsOpen(false);    
   }  
 
   return (
@@ -18,13 +24,12 @@ function Modal( {setIsOpen , handleList}) {
                   <label>Ingresa una lista </label>
                     <input 
                       type="text" className="Inp"  
-                      value={inputValue} onChange={e => setInputValue(e.target.value)}
+                      value = {inputValue} onChange={e => setInputValue(e.target.value)}
                     />
-
                 </form>
-                <button className="botonC" onClick= {handleSubmit}>  Aceptar
+                <button className="botonC" onClick= {handleSubmit}> 
+                  Aceptar
                 </button>
-                
               </div>
             </div>
         </div>
