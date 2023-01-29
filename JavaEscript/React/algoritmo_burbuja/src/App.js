@@ -10,8 +10,8 @@ import Modal from "./components/Modal";
 
 let List = [3 , 6 , 1 , 2 , 4];
 
-
-function Squares() {
+//this function return the list of numbers and render the Squares 
+function  Squares() {
     return (
         <div className="boxSquare">            
             {List.map((item, index) => {
@@ -24,7 +24,7 @@ function Squares() {
 
 }
 
-
+// this is the function principal for the app 
 function App() {
     
   const [isOPen, setIsOpen] = useState(false);
