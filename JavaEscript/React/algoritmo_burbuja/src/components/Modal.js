@@ -1,6 +1,8 @@
 
 import {useState} from "react";
-  
+ 
+
+
 // this is a function modal for the modal conponent
 function Modal( {setIsOpen , handleList}) {
   
@@ -8,12 +10,7 @@ function Modal( {setIsOpen , handleList}) {
   
   const handleSubmit = () => {
     handleList(inputValue);
-
-      //for (let i = 0; inputValue.length;i ++) {
-        //window.alert(inputValue[i]);
-      //}
-      window.alert(inputValue.length)
-      setIsOpen(false);    
+    setIsOpen(false);    
   }  
 
   return (

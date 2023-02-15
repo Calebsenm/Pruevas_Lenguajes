@@ -8,15 +8,15 @@ import Header from "./components/Header";
 import { useState } from 'react';
 import Modal from "./components/Modal";
 
-let List = [3 , 6 , 1 , 2 , 4];
+
 
 //this function return the list of numbers and render the Squares 
-function  Squares() {
+function  Squares(list2) {
     return (
         <div className="boxSquare">            
-            {List.map((item, index) => {
+            {list2.value.map((item, index) => {
                 return (
-                    <Square1 value={List[index]} />
+                    <Square1 value= {list2.value[index]} />
                 )
             })}
         </div>
@@ -30,41 +30,36 @@ function App() {
   const [isOPen, setIsOpen] = useState(false);
   const [list , setList] = useState([]);
 
+  // covert list of strings numbers 
+  var list2 = [1,2]
+  //var List3 = list.split("")
   const handleList = newList => {
     setList(newList);
   }
-
   
+  
+
+
   return (
     <>
       <div>
         <Header />
                 <div className="BoxFather">
-                    <Squares />
+                    <Squares value = {list2}/>
                     <div className="Box">
                         <div className="Box1">
 
-                            <button
-                              className="Button_1" 
-                              onClick={ () => setIsOpen(true)}
-                              >Ingresar Numeros 
-                          
+                            <button className="Button_1" onClick={ () => setIsOpen(true)}>
+                              Ingresar Numeros 
+                            </button>
+                            {isOPen && <Modal setIsOpen = {setIsOpen} handleList = {handleList }/>}
+                            
+                            <button className="Button_1" > 
+                              Ordenar Lista 
                             </button>
 
-                            {isOPen && <Modal 
-                                          setIsOpen = {setIsOpen} 
-                                          handleList = {handleList }
-                                        />}
-
-                            <button className="Button_1"
-
-                            >Ordenar Lista
-                            </button>
-
-                            <button className="Button_1"
-
-                            > Desordenar
-
+                            <button className="Button_1"> 
+                              Desordenar
                             </button> 
                         </div>
                     </div>
