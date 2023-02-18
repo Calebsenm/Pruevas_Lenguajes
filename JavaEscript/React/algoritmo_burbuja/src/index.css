@@ -98,9 +98,6 @@ body{
 }
 
 
-.BoxFather{    
-}
-
 
 .boxSquare{
 
@@ -111,38 +108,33 @@ body{
 }
 
 
-/*Para La Opcion al precionar Boton*/
+/* Ventana Modal Para La Opcion al precionar Boton*/
 
 .OptionWindowFather{
-
-    background-color: rgba(0,0,0,.5);
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-
+    position:fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    height: 100%;
+    width: 100%;
+     top: 0;
+    left: 0;
 }
 
 .OptionWindow{
-    background-color: #191b25;
+  
     position: relative;
-    height: 250px;
-    width: 400px;
+    font-weight: 800;
+    font-family: "monospace";
+    font-size: 25px;
 
     align-items: center;
     display: flex;
     text-align: center;
-    border-radius: 20px;
+  
+    width:400px;
+  }
 
-    font-weight: 900;
-    font-family: "monospace";
-    font-size: 25px;
-}
 
 
 .botonC{

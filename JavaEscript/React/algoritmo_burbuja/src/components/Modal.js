@@ -15,20 +15,24 @@ function Modal( {setIsOpen , handleList}) {
 
   return (
         <div className="OptionWindowFather">
+          <div className = "BoxModal">
             <div className="OptionWindow">
-                <div>
-                <form>
-                  <label>Ingresa una lista </label>
-                    <input 
-                      type="text" className="Inp"  
-                      value = {inputValue} onChange={e => setInputValue(e.target.value)}
-                    />
-                </form>
-                <button className="botonC" onClick= {handleSubmit}> 
-                  Aceptar
-                </button>
-              </div>
+                <div className = "InputModal">
+                  <form>
+                    <label>Ingresa numeros separados por coma </label>
+                      <input 
+                        type="text" className="Inp"  
+                        value = {inputValue} onChange={e => setInputValue(e.target.value)}
+                      /> 
+                  </form>
+                </div>
+                  <div className= "ButtonModal">
+                    <button className="botonC" onClick= {handleSubmit}> 
+                      Aceptar
+                    </button>
+                  </div>
             </div>
+          </div>
         </div>
     );
 }
