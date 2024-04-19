@@ -1,1 +1,1 @@
-#Aprender algun lenguaje interesante o hacer una pequeña prueba
+# Notas de los lenguajes que voy aprendiendo. o sinplementé probé
