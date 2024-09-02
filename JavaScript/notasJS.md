@@ -2,56 +2,56 @@
 ---------  Js the basics --------- 
 
 ⭐️Time Stamps⭐️
-#1  (00:00:00) JavaScript tutorial for beginners 🌐
-#2  (00:08:02) variables ❎
-#3  (00:16:32) arithmetic expressions 🧮
-#4  (00:21:14) user input 🧮
-#5  (00:25:41) type conversion 💱
-#6  (00:30:11) const ⛔
-#7  (00:33:13) Math 🔣
-#8  (00:36:52) hypotenuse calc practice program 📐
-#9  (00:43:12) counter program #️⃣
-#10 (00:46:52) random number generator 🎲
-#11 (00:50:53) useful string methods 🧵
-#12 (00:55:13) string slicing ✂️
-#13 (00:59:08) method chaining ⛓️
-#14 (01:01:03) if statements ❔
-#15 (01:05:24) checked property ✔️
-#16 (01:12:39) switches 🔀
-#17 (01:16:26) AND OR logical operators && ||
-#18 (01:20:29) NOT logical operator ❕
-#19 (01:23:26) while loops 🔁
-#20 (01:26:14) do while loops 🔂
-#21 (01:28:36) for loops 🔃
-#22 (01:32:05) break and continue statements 💔
-#23 (01:33:34) nested loops ➿
-#24 (01:38:05) functions ☎️
-#25 (01:42:43) return statement 🔙
-#26 (01:45:36) ternary operator ❔
-#27 (01:48:58) var vs let 🥊
-#28 (01:53:25) template literals 💬
-#29 (01:57:47) format currency 💲
-#30 (02:02:47) number guessing game 🔢
-#31 (02:06:55) temperature conversion program 🌡️
-#32 (02:15:49) arrays 🍎
-#33 (02:20:33) loop through an array ➰ 
-#34 (02:23:16) sort an array of strings 🗃️
-#35 (02:24:50) 2D arrays 🛒 
-#36 (02:29:14) spread operator 🖐️
-#37 (02:33:32) rest parameters 💤
-#38 (02:37:09) callbacks 🤙
-#39 (02:41:58) array.forEach() 🔚
-#40 (02:45:19) array.map() ⚙️
-#41 (02:48:10) array.filter() 🗑️
-#42 (02:50:21) array.reduce() 🔁
-#43 (02:52:33) sort an array of numbers 📋 
-#44 (02:54:41) function expressions 🤫
-#45 (02:59:55) arrow function expressions 🏹
-#46 (03:05:42) shuffle an array 🃏
-#47 (03:09:30) nested functions 🐣 
-#48 (03:12:47) maps 🗺️
-#49 (03:17:07) objects 🚗
-#50 (03:21:09) this keyword 🔝
++ 1  (00:00:00) JavaScript tutorial for beginners 🌐
++ 2  (00:08:02) variables ❎
++ 3  (00:16:32) arithmetic expressions 🧮
++ 4  (00:21:14) user input 🧮
++ 5  (00:25:41) type conversion 💱
++ 6  (00:30:11) const ⛔
++ 7  (00:33:13) Math 🔣
++ 8  (00:36:52) hypotenuse calc practice program 📐
++ 9  (00:43:12) counter program #️⃣
++ 10 (00:46:52) random number generator 🎲
++ 11 (00:50:53) useful string methods 🧵
++ 12 (00:55:13) string slicing ✂️
++ 13 (00:59:08) method chaining ⛓️
++ 14 (01:01:03) if statements ❔
++ 15 (01:05:24) checked property ✔️
++ 16 (01:12:39) switches 🔀
++ 17 (01:16:26) AND OR logical operators && ||
++ 18 (01:20:29) NOT logical operator ❕
++ 19 (01:23:26) while loops 🔁
++ 20 (01:26:14) do while loops 🔂
++ 21 (01:28:36) for loops 🔃
++ 22 (01:32:05) break and continue statements 💔
++ 23 (01:33:34) nested loops ➿
++ 24 (01:38:05) functions ☎️
++ 25 (01:42:43) return statement 🔙
++ 26 (01:45:36) ternary operator ❔
++ 27 (01:48:58) var vs let 🥊
++ 28 (01:53:25) template literals 💬
++ 29 (01:57:47) format currency 💲
++ 30 (02:02:47) number guessing game 🔢
++ 31 (02:06:55) temperature conversion program 🌡️
++ 32 (02:15:49) arrays 🍎
++ 33 (02:20:33) loop through an array ➰ 
++ 34 (02:23:16) sort an array of strings 🗃️
++ 35 (02:24:50) 2D arrays 🛒 
++ 36 (02:29:14) spread operator 🖐️
++ 37 (02:33:32) rest parameters 💤
++ 38 (02:37:09) callbacks 🤙
++ 39 (02:41:58) array.forEach() 🔚
++ 40 (02:45:19) array.map() ⚙️
++ 41 (02:48:10) array.filter() 🗑️
++ 42 (02:50:21) array.reduce() 🔁
++ 43 (02:52:33) sort an array of numbers 📋 
++ 44 (02:54:41) function expressions 🤫
++ 45 (02:59:55) arrow function expressions 🏹
++ 46 (03:05:42) shuffle an array 🃏
++ 47 (03:09:30) nested functions 🐣 
++ 48 (03:12:47) maps 🗺️
++ 49 (03:17:07) objects 🚗
+50 (03:21:09) this keyword 🔝
 #51 (03:24:08) classes 👨‍🏫
 #52 (03:27:15) constructors 👷
 #53 (03:30:48) static keyword ⚡
@@ -94,10 +94,10 @@
 
 curse from https://www.youtube.com/watch?v=8dWL3wF_OMw
 
+---
+##### Js the basics 
 
----------  Js the basics ---------
-
-para usar lo con html puedes usar: 
+para usar js con html usa:
 
 <body>
 <escript src ="index.js" ></script>

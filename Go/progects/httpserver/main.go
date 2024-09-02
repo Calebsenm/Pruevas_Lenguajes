@@ -25,11 +25,11 @@ func main(){
 	http.HandleFunc("/", getRoot)
 	http.HandleFunc("/", getHello)
 
-	err := http.ListenAndServe(":3333",nill)
+	err := http.ListenAndServe(":3333",nil)
 	if errors.Is(err, http.ErrServerClosed){
 		fmt.Printf("Served closed\n")
 
-	}else if err != nill {
+	}else if err != nil {
 		fmt.Printf("error starting server: %s\n",err)
 		os.Exit(1)
 	}
